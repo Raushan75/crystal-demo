@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background: #fed7ba;
+  }
+  /* navbar */
+  .navbar {
+    width: 1440px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin: 10px;
+  }
+  .navbar a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  /* logo */
+  #Crystal img {
+    width: 300px;
+    height: 100%;
+    margin-left: 50%;
+  }
+  .navbar-logo {
+    display: flex;
+    margin-left: 80px;
+  }
+  .heart img {
+    width: 50px;
+    height: 50px;
+    margin-right: 90px;
+  }
+  .shop img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+  }
+  .text img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid blue; */
+  }
+  .contant {
+    background-color: white;
+    /* border: 2px solid red; */
+    display: block;
+    width: 300px;
+    height: 950px;
+    /*  */
+  }
+  .contant h4 {
+    width: 200px;
+    height: 55px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    color: #8b0000;
+  }
+  #menu {
+    width: 138px;
+    height: 308px;
+    text-align: center;
+  }
+  .info {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 43px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .active {
+    color: #8b0000;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  #menu img {
+    width: 25px;
+    height: 14px;
+    position: absolute;
+    margin-left: 190px;
+    margin-bottom: 90px;
+  }
+  .Account{
+    width: 150px;
+height: 100px;
+position: absolute;
+    margin-left: 100px;
+  }
+  #Pickup{
+    list-style: none;
+  }
+  #Pickup a{
+    font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 27.28px;
+text-align: left;
+list-style: none;
+  }
+  .text-area {
+    width: 78%;
+    background-color: #ffffff;
+    margin-right: 20px;
+  }
+  #center {
+    width: 1000px;
+    height: 50px;
+    background: #d27f7f80;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  #center h2 {
+    width: 877px;
+    height: 49px;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 50px;
+  }
+  .text {
+    width: 70%;
+  }
+  .text h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .text p {
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 70px;
+  }
+  #mission {
+    width: 70%;
+  }
+  #mission h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  #mission p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  #our {
+    width: 80%;
+  }
+  #our h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  #our p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  #Contact-our {
+    width: 80%;
+  }
+  #Contact-our h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  #Contact-our p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  #track{
+    width: 80%;
+  }
+  #track h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  #track p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  .information {
+    width: 100%;
+    height: 549px;
+    background: #d9d9d9;
+    position: relative;
+  }
+  #item {
+    display: flex;
+    justify-content: space-around;
+  }
+  #address {
+    width: 114px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #address p {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+  }
+  #Help {
+    width: 156px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #Help p a {
+    width: 265px;
+    height: 132px;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 5px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #contact {
+    width: 150px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 25px;
+    height: 25px;
+  }
+  #contact a {
+    width: 215px;
+    height: 34px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  #links {
+    width: 161px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+  }
+  #links a {
+    width: 194px;
+    height: 165px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #location {
+    width: 116px;
+    height: 41px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  #location img {
+    width: 308px;
+    height: 164px;
+  }
+  #follow {
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 200px;
+    margin-left: 40%;
+  }
+  #follow a {
+    color: #8b0000;
+    margin-top: 300px;
+    text-decoration: none;
+  }
+  #follow img {
+    width: 20px;
+    height: 25px;
+  }
+  footer {
+    width: 641px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-left: 32%;
+  }
+  

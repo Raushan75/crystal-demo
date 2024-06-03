@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <div id="form-img">
+        <img src="/Crystal/img1/login.jpg" alt="" />
+      </div>
+      <div class="form-content">
+         <div id="item">
+          <div id="sign"><a href="#">Sign Up</a></div>
+          <div id="log"><a href="login.html">Login</a></div>
+          <div id="cross">
+            <img src="/Crystal/img1/icons8-cross-50.png" alt="" />
+          </div>
+         </div>
+          <form action="">
+            <h3>Sign up & get Rs. 500 off* coupon code for <br> your first purchase!</h3>
+            <input type="text" id="name" placeholder="Name" name="name" required/><br>
+            <input type="text" id="email" placeholder="Email ID" required><button type="button" onclick="sendEmailVerification()" id="verify">Verify</button><br>
+            <input type="tel" id="phone" placeholder="Phone Number" name="number" required><button type="button" onclick="sendPhoneVerification()" id="verify">Verify</button><br>
+            <input type="password" id="password" placeholder="Password"  name="password" required /><br>
+            <input type="password" id="confirm" placeholder=" Confirm Password"  name="password" required /><br>
+            <input type="checkbox" id="agree"/>I agree to the Terms of use and Privacy Statement<br>
+            <input type="submit" id="sign-up" value="sign Up" /><br>
+            <p>Already have an account?<a href="login.html">Login now </a></p>    
+          </form>
+      </div>
+    </div>
+  </body>
+</html>

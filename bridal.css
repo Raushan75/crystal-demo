@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background: #fed7ba;
+  }
+  /* navbar */
+  .navbar {
+    width: 1440px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin: 10px;
+  }
+  .navbar a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  /* logo */
+  #Crystal img {
+    width: 300px;
+    height: 100%;
+    margin-left: 50%;
+  }
+  .navbar-logo {
+    display: flex;
+    margin-left: 80px;
+  }
+  .heart img {
+    width: 50px;
+    height: 50px;
+    margin-right: 90px;
+  }
+  .shop img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+  }
+  .text img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contant {
+    background-color: white;
+    display: block;
+    width: 300px;
+    height: 1200px;
+  }
+  #Categories h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  .Crystal {
+    width: 149px;
+    height: 54px;
+  }
+  .Crystal a {
+    text-decoration: none;
+    color: black;
+  }
+  .Crystal h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  #menu {
+    width: 126px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 40px;
+    list-style: none;
+  }
+  #menu a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .Carat {
+    width: 149px;
+    height: 54px;
+    margin-top: 50px;
+  }
+  .Carat a {
+    text-decoration: none;
+    color: black;
+  }
+  .Carat h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  #Gold a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+  }
+  
+  .Product {
+    width: 149px;
+    height: 54px;
+    margin-top: 50px;
+  }
+  .Product a {
+    text-decoration: none;
+    color: black;
+  }
+  .Product h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  #Coin a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+  }
+  .Bridal {
+    width: 180px;
+    height: 54px;
+    margin-top: 190px;
+  }
+  .Bridal a {
+    text-decoration: none;
+    color: black;
+  }
+  .Bridal h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  #Enchanting a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+  }
+  .occasional {
+    width: 180px;
+    height: 54px;
+    margin-top: 80px;
+  }
+  .occasional a {
+    text-decoration: none;
+    color: black;
+  }
+  .occasional h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 40px;
+  }
+  #Birthday a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+  }
+  #Personalised {
+    width: 100px;
+    /* height: 101px; */
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  #Personalised h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  span {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  #shop{
+    width: 85%;
+  }
+  .text-area {
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 300px;
+  }
+  .collection-container {
+    flex-basis: calc(50% - 20px);
+    margin-left: 10px;
+  }
+  .collection-container img {
+    max-width: 50%;
+    margin-top: 50px;
+  }
+  .collect{
+    width: 250px;
+height: 50px;
+background: #84292B;
+text-align: center;
+margin-top: 20px;
+  }
+  .collect a{
+    text-decoration: none;
+  }
+  .collect h5{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+color: #ffffff;
+margin-left: 30px;
+padding-top: 5px;
+  }
+  .information {
+    width: 100%;
+    height: 549px;
+    background: #d9d9d9;
+    position: relative;
+  }
+  #item {
+    display: flex;
+    justify-content: space-around;
+  }
+  #address {
+    width: 114px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #address p {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+  }
+  #Help {
+    width: 156px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #Help p a {
+    width: 265px;
+    height: 132px;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 5px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #contact {
+    width: 150px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 25px;
+    height: 25px;
+  }
+  #contact a {
+    width: 215px;
+    height: 34px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  #links {
+    width: 161px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+  }
+  #links a {
+    width: 194px;
+    height: 165px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #location {
+    width: 116px;
+    height: 41px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  #location img {
+    width: 308px;
+    height: 164px;
+  }
+  #follow {
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 200px;
+    margin-left: 40%;
+  }
+  #follow a {
+    color: #8b0000;
+    margin-top: 300px;
+    text-decoration: none;
+  }
+  #follow img {
+    width: 20px;
+    height: 25px;
+  }
+  footer {
+    width: 641px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-left: 32%;
+  }
+  

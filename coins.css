@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background: #fed7ba;
+  }
+  /* navbar */
+  .navbar {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin: 10px;
+  }
+  .navbar a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  /* logo */
+  #Crystal img {
+    width: 300px;
+    height: 50px;
+    margin-left: 50%;
+  }
+  .navbar-logo {
+    display: flex;
+    margin-left: 30px;
+  }
+  .heart img {
+    width: 30px;
+    height: 30px;
+    margin-right: 90px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .shop img {
+    width: 30px;
+    height: 30px;
+    margin-right: 90px;
+    margin-top: 10px;
+  }
+  .text img {
+    width: 30px;
+    height: 30px;
+    margin-right: 90px;
+    margin-top: 10px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contant {
+    background-color: white;
+    display: block;
+    width: 400px;
+    height: 1200px;
+  }
+  .Crystal h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+  }
+  .Crystal h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Crystal #between{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #8b0000;
+    margin-left: 10px;
+  }
+  .Crystal h3{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 70px;
+margin-left: 10px;
+  }
+  .Crystal p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+  }
+  .Crystal span{
+   position: absolute;
+   margin-left: 10%;
+   margin-top: -20px;
+  }
+  h4 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 150px;
+  }
+  .collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 150px;
+    margin-top: -10px;
+  }
+  .collection-container {
+    flex-basis: calc(25% - 20px);
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .collection-container img {
+    max-width: 50%;
+    /* border: 2px solid black; */
+    /* box-shadow: 10px 10px 4px 0px #84292b; */
+    border-radius: 10px;
+  }
+  .rate {
+    width: 140px;
+    height: 60px;
+    box-shadow: 0px 6px 4px 0px #00000040;
+    background: #d9d9d9;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .rate p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    /* line-height: 30px; */
+    text-align: center;
+  }
+  .rate span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+  .best {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: 50px;
+  }
+  #scroll{
+    width: 174px;
+  height: 40px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  background: #8b0000;
+  color: #ffffff;
+  margin-left: 39%;
+  }
+  .arrow{
+      display: flex;
+      margin-left: 40%;
+      width: 150px;
+      justify-content: space-between;
+  }
+  .arrow a{
+    font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  }
+  #them{
+    width: 100%;
+  }
+  .information {
+    width: 100%;
+    background: #d9d9d9;
+    position: relative;
+  }
+  #item {
+    display: flex;
+    justify-content: space-around;
+  }
+  #address {
+    width: 114px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #address p {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+  }
+  #Help {
+    width: 156px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #Help p a {
+    width: 265px;
+    height: 120px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+  }
+  #contact {
+    width: 150px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  #contact a {
+    width: 215px;
+    height: 34px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  #links{
+    width: 161px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #links a {
+    width: 194px;
+    height: 165px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #location {
+    width: 116px;
+    height: 41px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  #location img {
+    width: 308px;
+    height: 164px;
+  }
+  #follow {
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 200px;
+    margin-left: 40%;
+  }
+  #follow a {
+    color: #8b0000;
+    margin-top: 300px;
+    text-decoration: none;
+  }
+  #follow img {
+    width: 20px;
+    height: 25px;
+    margin-left: 20px;
+  }
+  footer {
+    width: 641px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-left: 32%;
+  }
+  

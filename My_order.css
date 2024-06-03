@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background: #fed7ba;
+  }
+  /* navbar */
+  .navbar {
+    width: 1440px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin: 10px;
+  }
+  .navbar a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  /* logo */
+  #Crystal img {
+    width: 300px;
+    height: 100%;
+    margin-left: 50%;
+  }
+  .navbar-logo {
+    display: flex;
+    margin-left: 80px;
+  }
+  .heart img {
+    width: 50px;
+    height: 50px;
+    margin-right: 90px;
+  }
+  .shop img {
+    width: 50px;
+    height: 50px;
+    margin-right: 90px;
+  }
+  #space {
+    width: 70px;
+    height: 70px;
+    background: #8b0000;
+    border-radius: 50%;
+  }
+  #text {
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.47px;
+    text-align: center;
+    color: white;
+  }
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+  .orders h5{
+    font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+margin-left: 20px;
+  }
+  .orders h3{
+    font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 43.65px;
+margin-left: 20px;
+  }
+  .orders h2{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: center;
+color: #8B0000;
+margin-top: 20px;
+  }
+  .orders h4{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: center;
+color: #8B0000;
+margin-top: 20px;
+  }
+  input{
+    margin-top: 20px;
+    width: 30%;
+    background: #D9D9D9;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 70px;
+margin-left: 40px;
+  }
+  .my_order button{
+    width: 90%;
+    font-family: Nunito Sans;
+font-size: 24px;
+font-style: italic;
+font-weight: 200;
+line-height: 32.74px;
+margin-top: -20px;
+background: #D27F7F80;
+border: 1px solid #8B000080;
+text-align: left;
+margin-left: 50px;
+  }
+  .my_order button span{
+    margin-left: 30px;
+  }
+  .style{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #photo img{
+    width: 100px;
+height: 100px;
+border: 1px solid #8B0000;
+box-shadow: 5px 5px 4px 0px #D27F7F80;
+margin-left: 50px;
+
+  }
+  #and{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #716C6C;
+margin-left: 30px;
+  }
+  #style{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+margin-left: 30px;
+  }
+  #cat{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: left;
+margin-left: 30px;
+  }
+  #rate{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: left;
+color: #8B0000;
+margin-left: 30px;
+  }
+  #rating{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.74px;
+    text-align: left;
+    color: #26A332;
+    margin-left: 30px;
+  }
+  #rating span{
+    color: black;
+    margin-left: 5%;
+  }
+  #rating b{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 300;
+line-height: 32.74px;
+text-align: left;
+color: #4B04A6;
+
+  }
+  .information {
+    width: 100%;
+    height: 549px;
+    background: #d9d9d9;
+    position: relative;
+  }
+  #item {
+    display: flex;
+    justify-content: space-around;
+  }
+  #address {
+    width: 114px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #address p {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+  }
+  #Help {
+    width: 156px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #Help a {
+    width: 265px;
+    height: 132px;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 5px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #contact {
+    width: 150px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 25px;
+    height: 25px;
+  }
+  #contact a {
+    width: 215px;
+    height: 34px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  #links {
+    width: 161px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #8b0000;
+  }
+  #links a {
+    width: 194px;
+    height: 165px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000000;
+    text-decoration: none;
+  }
+  #location {
+    width: 116px;
+    height: 41px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8b0000;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  #location img {
+    width: 308px;
+    height: 164px;
+  }
+  #follow {
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 200px;
+    margin-left: 40%;
+  }
+  #follow a {
+    color: #8b0000;
+    margin-top: 300px;
+    text-decoration: none;
+  }
+  #follow img {
+    width: 20px;
+    height: 25px;
+  }
+  footer {
+    width: 641px;
+    height: 41px;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40.92px;
+    color: #8b0000;
+    margin-left: 32%;
+  }

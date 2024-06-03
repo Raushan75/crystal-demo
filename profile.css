@@ -1,0 +1,1335 @@
+/* @import url(manage.css,payment.css,upi.css,gift1.css,my_whislist.css,coupons.css,my_reviews.css,notifications.css); */
+/* Profile Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #fed7ba;
+}
+/* navbar */
+.navbar {
+  width:100%;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+  margin: 10px;
+}
+.navbar a {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+/* logo */
+#Crystal img {
+  width: 300px;
+  height: 50px;
+  margin-left: 50%;
+}
+.navbar-logo {
+  display: flex;
+  margin-left: 30px;
+}
+.heart img {
+  width: 30px;
+  height: 30px;
+  margin-right: 90px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.shop img {
+  width: 30px;
+  height: 30px;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+#space {
+  width: 70px;
+  height: 70px;
+  background: #8b0000;
+  border-radius: 50%;
+}
+#text {
+  font-family: Nunito Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.47px;
+  text-align: center;
+  color: white;
+}
+.order{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.orders{
+  width: 15%;
+  background-color: #ffffff;
+}
+ #profile{
+  width: 80%;
+  background: #fed7ba;
+  margin-top: 23px;
+  height: 55px;
+  margin-left: 20px;
+}
+#profile h3{
+  font-family: Nunito Sans;
+  font-size: 25px;
+  color: #8B0000;
+}
+h5{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+h5 span{
+  font-family: Nunito Sans;
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+}
+.profile{
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.active{
+  color: #8b0000;
+}
+.my_order{
+  width: 80%;
+  background-color: #ffffff;
+  margin-right: 40px;
+}
+.my_order h4{
+  font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 70px;
+margin-left: 40px;
+}
+form{
+  width: 100%;
+  margin-left: 40px;
+}
+label{
+  font-size: 30px;
+  color:#8B0000;
+  line-height: 50px;
+}
+
+#userName{
+  width: 400px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #8b0000;
+  margin-top: 20px;
+  border: 1px solid #8b0000 ;
+  border-radius: 5px;
+}
+input[type=radio]#color {
+  margin-top: 10px;
+  accent-color:#8b0000;
+}
+#last{
+  position: absolute;
+  width: 60px;
+  border: none;
+  margin-left: 40%;
+  margin-top: 40px;
+  color: #8b0000;
+  font-size: 24px;
+}
+.men{
+  font-size: 20px;
+}
+#userEmail{
+  width: 800px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #8b0000;
+  margin-top: 20px;
+  border: 1px solid #8b0000 ;
+  border-radius: 5px;
+}
+#adress{
+  position: absolute;
+  width: 60px;
+  border: none;
+  margin-left: 37%;
+  margin-top: 40px;
+  color: #8b0000;
+  font-size: 24px;
+}
+#userPhone{
+  width: 800px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #8b0000;
+  margin-top: 20px;
+  border: 1px solid #8b0000 ;
+  border-radius: 5px;
+}
+#phone{
+  position: absolute;
+  width: 60px;
+  border: none;
+  margin-left: 37%;
+  margin-top: 40px;
+  color: #8b0000;
+  font-size: 24px;
+}
+#box{
+  margin-top: 20px;
+}
+#done{
+  width: 200px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #ffff;
+  margin-top: 20px;
+  background: #8b0000;
+  border: 1px solid #8b0000 ;
+  border-radius: 5px;
+  margin-left: 80px;
+}
+.information {
+  width: 100%;
+  background: #d9d9d9;
+  position: relative;
+}
+#item {
+  display: flex;
+  justify-content: space-around;
+}
+#address {
+  width: 114px;
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #8b0000;
+  margin-top: 20px;
+}
+#address p {
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #000000;
+}
+#Help {
+  width: 156px;
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #8b0000;
+  margin-top: 20px;
+}
+#Help p a {
+  width: 265px;
+  height: 120px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+#contact {
+  width: 150px;
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40.92px;
+  color: #8b0000;
+  margin-top: 20px;
+}
+#contact img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+#contact a {
+  width: 215px;
+  height: 34px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #000000;
+  margin-top: 20px;
+  text-decoration: none;
+}
+#links{
+  width: 161px;
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #8b0000;
+  margin-top: 20px;
+}
+#links a {
+  width: 194px;
+  height: 165px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+#location {
+  width: 116px;
+  height: 41px;
+  opacity: 0px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #8b0000;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+#location img {
+  width: 308px;
+  height: 164px;
+}
+#follow {
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 200px;
+  margin-left: 40%;
+}
+#follow a {
+  color: #8b0000;
+  margin-top: 300px;
+  text-decoration: none;
+}
+#follow img {
+  width: 20px;
+  height: 25px;
+  margin-left: 20px;
+}
+footer {
+  width: 641px;
+  height: 41px;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40.92px;
+  color: #8b0000;
+  margin-left: 32%;
+}
+/* manage css */
+
+.order{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.orders{
+  width: 15%;
+  background-color: #ffffff;
+}
+ #profile{
+  width: 80%;
+  background: #fed7ba;
+  margin-top: 23px;
+  height: 55px;
+  margin-left: 20px;
+}
+#profile h3{
+  font-family: Nunito Sans;
+  font-size: 25px;
+  color: #8B0000;
+}
+h5{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+h5 span{
+  font-family: Nunito Sans;
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+}
+.profile{
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+a:is(:link, :active,:visited).active{
+  color: #8B0000;
+}
+.my_order{
+  width: 80%;
+  background-color: #ffffff;
+  margin-right: 40px;
+}
+.my_order h4{
+  font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 70px;
+margin-left: 40px;
+}
+.my_order h2{
+  width: 300px;
+  height: 50px;
+  border: 1px solid #8B0000;
+  background: lightpink;
+  font-family: Nunito Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 40px;
+  padding: 5px;
+}
+.home{
+  width: 80%;
+  height: 140px;
+  border: 1px solid #8B0000;
+  background-color: #ffffff;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.home h3{
+  font-size: 20px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 36px;
+  color: #8B0000;
+}
+.home h1{
+  font-size: 20px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 36px;
+}
+.home p{
+  font-size: 15px;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 20px;
+}
+#DELETE{
+  width: 150px;
+  height: 30px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -5%;
+  border: none;
+  color: #8B0000;
+}
+label{
+  font-size: 30px;
+  line-height: 50px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 80px;
+}
+input[type=radio]#delivery {
+  margin-top: 10px;
+  accent-color:#8b0000;
+  margin-left: 40px;
+}
+span{
+  font-family: Nunito Sans;
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 5px;
+}
+/* payment css */
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-left: 40px;
+  }
+  .my_order h2{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #8B0000;
+    background: lightpink;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 40px;
+    padding: 5px;
+  }
+ .card{
+    width: 80%;
+    height: 140px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-top: 50px;
+ }
+ .card h3{
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 36px;
+    color: #8B0000;
+ }
+ #card{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+ }
+ #delete{
+    width: 200px;
+    height: 50px;
+    margin-left: -80px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: #8B0000;
+    border: none;
+    position: absolute;
+    margin-top: -90px;
+ }
+#cvv{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+#Valid{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+b{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 30px;
+}
+.card span{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 30px;
+}
+#sve{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background: #8B0000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.create{
+    width: 80%;
+    height: 140px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.create h3{
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 36px;
+    color: #8B0000;
+ }
+  /* upi css */
+ 
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-left: 40px;
+  }
+  .my_order h2{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #8B0000;
+    background: lightpink;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 40px;
+    padding: 5px;
+  }
+ .card{
+    width: 80%;
+    height: 140px;
+    background-color: #ffffff;
+    margin-left: 40px;
+ }
+ .card h3{
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 36px;
+ }
+ input[type=radio]#color {
+    margin-top: 10px;
+    accent-color:#8b0000;
+    margin-left: 40px;
+  }
+ .upi{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+ }
+b{
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 30px;
+}
+#sve{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background: #8B0000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.create{
+    width: 80%;
+    height: 140px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.create h3{
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 36px;
+    color: #8B0000;
+ }
+
+  /* gift1 css */
+  
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  #gift-banner img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 1px solid black;
+  }
+ #order-details{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.coupans{
+    flex-basis: calc(25% - 20px);
+    margin-left: 10%;
+}
+.coupans img{
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: -20px;
+    border: 2px solid black;
+}
+#enjoy{
+    margin-left: -19px;
+}
+#Now{
+    width: 100px;
+    height: 30px;
+    background: #8b0000;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    margin-left: 40px;
+}
+#order{
+    margin-left: -40px;
+}
+  /* wislist css */
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .background {
+    margin-top: 80px;
+    border: 1px solid #8B0000;
+    flex-basis: calc(25% - 20px);
+    width: 100px;
+    height: 430px;
+    text-align: center;
+    border-radius: 4px;
+    background: #D9D9D9;
+    flex-basis: calc(50% - 80px);
+  }
+   h1{
+    font-family: Inter;
+font-size: 45px;
+font-weight: 600;
+line-height: 54.46px;
+text-align: left;
+margin-top: 10px;
+  }
+  .gift-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -20px;
+  }
+  
+  .dad img {
+    max-width: 50%;
+    /* height: 268px; */
+    border-radius: 6px;
+    border: 1px;
+    margin-top: 40px;
+  }
+  .star span{
+    border-radius: 10px;
+    background: #26A332;
+    margin-top: 5px;
+    width: 50px;
+    }
+    #three span{
+        background-color: yellow;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    .to{
+        width: 200px;
+height: 40px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 36.31px;
+text-align: center;
+margin-top: 10px;
+border: 1px solid #000000;
+border-radius: 10px;
+background:  gray;
+    }
+  /* my reviews css */
+  
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+  #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 70px;
+margin-left: 40px;
+  }
+  .my_order button span{
+    margin-left: 30px;
+  }
+  .style{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #photo img{
+    width: 100px;
+height: 100px;
+border: 1px solid #8B0000;
+box-shadow: 5px 5px 4px 0px #D27F7F80;
+margin-left: 50px;
+
+  }
+  #and{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #716C6C;
+margin-left: 30px;
+  }
+  #style{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+text-align: left;
+margin-left: 30px;
+  }
+  #cat{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: left;
+margin-left: 30px;
+  }
+  #rate{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: left;
+color: #8B0000;
+margin-left: 30px;
+  }
+  #chawda{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.74px;
+    text-align: left;
+    color: #26A332;
+    margin-left: 30px;
+  }
+  #chawda span{
+    color: black;
+    margin-left: 5%;
+  }
+  #chawda b{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+color: #4B04A6;
+  }
+  #delete{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: none;
+    color: #8B0000;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -130px;
+  }
+  /* notification css */
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-left: 40px;
+  }
+  .my_order h3{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+line-height: 40px;
+text-align: left;
+color: #716C6C;
+margin-left: 40px;
+  }
+  input[type=checkbox].color {
+    margin-top: 20px;
+    accent-color:black;
+    margin-left: 40px;
+  }
+  input{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #8B0000;
+  }
+  /* coupons css */
+  .order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .orders{
+    width: 15%;
+    background-color: #ffffff;
+  }
+   #profile{
+    width: 80%;
+    background: #fed7ba;
+    margin-top: 23px;
+    height: 55px;
+    margin-left: 20px;
+  }
+  #profile h3{
+    font-family: Nunito Sans;
+    font-size: 25px;
+    color: #8B0000;
+  }
+  h5{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  h5 span{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  a:is(:link, :active,:visited).active{
+    color: #8B0000;
+  }
+  .my_order{
+    width: 80%;
+    background-color: #ffffff;
+    margin-right: 40px;
+  }
+  .my_order h4{
+    font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-left: 40px;
+  }
+ .my_coupons{
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 4px 0px #00000040;
+    border: 1px solid #8B0000;
+    margin-left: 70px;
+    margin-top: 50px;
+ }
+ .my_coupons h3{
+    font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 38.19px;
+text-align: left;
+color: #8B0000;
+ margin-left: 50px;
+  }
+  #get{
+    font-family: Nunito Sans;
+font-size: 24px;
+font-style: italic;
+font-weight: 300;
+line-height: 32.74px;
+text-align: left;
+color: #8B0000;
+margin-left: 50px;
+  }
+  .my_coupons h6{
+    font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+color: #716C6C;
+position: absolute;
+margin-left: 55%;
+margin-top: -50px;
+  }
+  #view{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #D27F7F;
+    font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+margin-left: 40%;
+margin-top: 15px;
+  }
+ 

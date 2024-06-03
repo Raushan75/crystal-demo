@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.form-container {
+  width: 70%;
+  height: 738px;
+  display: flex;
+  background-color: white;
+  margin-left: 15%;
+}
+#form-img img {
+  width: 520px;
+  height: 738px;
+}
+#item {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 40px;
+  border-bottom: 2px solid lightcoral;
+  gap: 120px;
+}
+.form-content {
+    width: 52%;
+}
+#cross img {
+  width: 25px;
+  height: 25px;
+}
+#sign {
+  width: 148px;
+  height: 55px;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-top: 40px;
+}
+#sign a {
+  color: #d27f7f;
+  text-decoration: none;
+}
+#log {
+  width: 148px;
+  height: 55px;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-top: 40px;
+}
+#log a {
+  margin-top: 50px;
+  color: #d27f7f;
+}
+form{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 35px;
+}
+#email{
+    width: 407px;
+height: 40px;
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 49px;
+margin-left: 50px;
+border: none;
+border-bottom: 2px solid lightcoral;
+}
+#password{
+  width: 407px;
+height: 40px;
+font-family: Nunito Sans;
+font-size: 20px;
+margin-left: 50px;
+font-weight: 400;
+line-height: 49px;
+border: none;
+border-bottom: 2px solid lightcoral;
+margin-top: 20px;
+}
+#login{
+  width: 400px;
+height: 50px;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 900;
+line-height: 54.56px;
+text-align: center;
+background: #D27F7F;
+color: #FFFFFF;
+margin-top: 30px;
+margin-left: 50px;
+border: none;
+}
+#for a{
+  width: 250px;
+height: 40px;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 300;
+line-height: 30px;
+color: #000000;
+margin-left:35%;
+margin-top: 6%;
+text-decoration: none;
+}
+#google{
+  width: 400px;
+height: 50px;
+ margin-top: 90px;
+ background: #FF0000;
+ margin-left: 50px;
+}
+#google img{
+width: 30px;
+height: 30px;
+margin-top: 10px;
+}
+#google span{
+  width: 346px;
+height: 55px;
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 50px;
+color: #FFFFFF;
+margin-left: 100px;
+margin-bottom: -40px;
+
+}
+#google  a{
+  text-decoration: none;
+}
+p{
+  width: 380px;
+height: 33px;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 300;
+line-height: 30px;
+margin-left: 150px;
+margin-top: 20px;
+}
+p a{
+  font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 300;
+line-height: 30px;
+margin-left: -1px;
+color: #d27f7f;
+}

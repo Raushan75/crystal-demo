@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background: #fed7ba;
+  }
+  /* navbar */
+  .navbar {
+    width: 1440px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin: 10px;
+  }
+  .navbar a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  /* logo */
+  #Crystal img {
+    width: 300px;
+    height: 100%;
+    margin-left: 50%;
+  }
+  .navbar-logo {
+    display: flex;
+    margin-left: 80px;
+  }
+  #space {
+    width: 70px;
+    height: 70px;
+    background: #8b0000;
+    border-radius: 50%;
+  }
+  #text {
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.47px;
+    text-align: center;
+    color: white;
+  }
+  #text span{
+    font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27.28px;
+text-align: left;
+color: #8B0000;
+
+  }
+  .product {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .necklace {
+    width: 450px;
+    height: 550px;
+  }
+  .necklace img {
+    box-shadow: 10px 10px 4px 0px #00000040;
+    border: 1px solid #000000;
+    border-radius: 20px;
+  }
+  #heart {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 20px;
+  }
+  .cart {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    background: #8b0000;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 90px;
+    color: #ffffff;
+  }
+  .head {
+    width: 900px;
+  }
+  .head h1{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  }
+  .head p{
+    font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  }
+  #Price {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: left;
+  color: #8B0000;
+  margin-top: 20px;
+  
+  }
+  #rate span{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #8B0000;
+  }
+  #rate del{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  }
+  #rate b{
+    color: #84292B;
+  }
+  #qty{
+    width: 110px;
+height: 50px;
+border-radius: 10px;
+background: #D27F7F;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+  }
+  #extra{
+    width: 250px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;  
+    color: #8B0000;
+    background-color: #ffffff;
+    border: none;
+  }
+  #extra b{
+    margin-left: -140px;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+  }
+  #extra span{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+  #sbi{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;  
+    color: #8B0000;
+    border: none;
+    background-color: #D27F7F;
+    margin-top: 30px;
+  }
+  #coupons{
+    width: 250px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;  
+    color: #8B0000;
+    background-color: #ffffff;
+    border: none;
+  }
+  #offers{
+    width: 250px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 20px;  
+    color: #8B0000;
+    border: none;
+    background-color: #D27F7F;
+    margin-top: 30px;
+  }
+  #delivery{
+    font-family: Poppins;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: left;
+  }
+  input{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  color: #84292B;
+  border: none;
+  border-bottom: 2px solid #84292B; 
+  margin-left: 40px;
+  }
+  #delivery button{
+    width: 80px;
+  height: 20px;
+  border-radius: 30px;
+  background: #D27F7F;
+  border: none;
+  border-bottom: #8B0000;
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 10px;
+  }
+  #Free{
+    font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  }
+  #Free span{
+    color: #8B0000;
+  }
+  .order{
+    display: flex;
+    justify-content: space-around;
+  }
+  table{
+    width: 100%;
+  }
+  th{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #84292B;
+  }
+button#Checkout{
+    width: 200px;
+height: 40px;
+border-radius: 10px;
+margin-left: 40px;
+background: #832729;
+color: #ffffff;
+padding-top: 5px;
+}

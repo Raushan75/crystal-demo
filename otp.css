@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.form-container {
+  width: 70%;
+  height: 738px;
+  display: flex;
+  background-color: white;
+  margin-left: 15%;
+}
+#form-img img {
+  width: 520px;
+  height: 738px;
+}
+#item {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 40px;
+  border-bottom: 2px solid lightcoral;
+  gap: 120px;
+}
+.form-content {
+  width: 52%;
+}
+#cross img {
+  width: 25px;
+  height: 25px;
+}
+#Otp {
+  width: 250px;
+  height: 55px;
+  font-family: Nunito Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-top: 40px;
+  color: #d27f7f;
+  margin-left: 100px;
+}
+#Continue {
+  width: 400px;
+  height: 50px;
+  background: #d27f7f;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #ffffff;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+#back {
+  width: 150px;
+  height: 33px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32.74px;
+  text-align: center;
+  margin-left: 30%;
+  color: #000000;
+  margin-top: 10px;
+  text-decoration: none;
+}
+#back img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#back a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.otp{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8B0000;
+    text-align: center;   
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60;
+    margin-left: 70px; 
+}
+p {
+    width: 489px;
+    height: 33px;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  p a{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;    
+  }
+  form{
+    width: 100%;
+    margin-top: 250px;
+    margin-left: 40px;
+}
